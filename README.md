@@ -15,9 +15,11 @@ This Excel project offers a unique opportunity to blend the passion for football
 This file has two working sheets named 'Database' and 'Countries'. These are the following steps done.
 
 Database Sheet
+
 ![image](https://github.com/jef-fortunahamid/ExcelFootballAnalysis/assets/125134025/93443aaf-45a3-45e6-805f-9acdd9776a7e)
 
 Countries Sheet
+
 ![image](https://github.com/jef-fortunahamid/ExcelFootballAnalysis/assets/125134025/f66f79d2-7913-4b3f-9b13-80da887c375a)
 
 Looking at the two sheets, there are few things we need to do to clean up the sheets. 
