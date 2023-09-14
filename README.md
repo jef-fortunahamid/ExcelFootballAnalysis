@@ -13,6 +13,15 @@ Here's the Final ouput, [Football Transfer Analysis](https://docs.google.com/spr
 
 *This Excel project offers a unique opportunity to blend the passion for football with the excitement of data-driven insights, fostering a deeper understanding of the global football economy. Whether you're a football enthusiast, a data analysis student, or both, this Excel project promises intriguing findings and a new perspective on this captivating game. It’s the perfect opportunity to validate several essential Excel skills you learned in the Introduction to Excel course.* (Excerpt from the course)
 
+### Techniques Used:
+- **Text to Columns**: Using the 'Data' tab, the country and continent information is separated using a comma as the delimiter.
+- **TRIM Function**: Used to remove the extra space before the continent names.
+- Copy-Paste Special and Add Filter: The cleaned-up data is pasted back, and filters are applied to each column.
+- Formatting and Filters: Headers are formatted, and filters are applied to each column.
+- Find/Replace: Used to correct erroneous values in the 'Season' column.
+- INDEX/MATCH Functions: Used to fill missing 'Continent' information based on the 'Countries' sheet.
+- Formatting Cells: The 'Total club to club compensation' column is formatted to display values in a uniform manner.
+
 ### Part 1: Data Exploration and Preparation
 This file has two working sheets named 'Database' and 'Countries'. These are the following steps done.
 
