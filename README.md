@@ -86,7 +86,7 @@ The final column to fix is the 'Total club to club compensation'.
 
 Looking at the column, the values are not properly shown. The decimal places are not consistent as well. We need to fix this with 'Format Cells' (press CTRL + 1). Select all the values on the column 'Total club to club compensation' (CTRL + SHIFT + DOWN ARROW). On 'Format Cells' choose the 'Custom' function, then type '$#,##0.00;;-'.
 - "$#,##0.00": This is for positive numbers. It rounds the number to two decimal places and adds a dollar sign.
-- The section for negative numbers is left blank since you mentioned there are no negative values.
+- The section for negative numbers is left blank since there are no negative values.
 - "-": This is for zeros, which will be displayed as a dash.
 
 ![image](https://github.com/jef-fortunahamid/ExcelFootballAnalysis/assets/125134025/a0cd0bc7-c697-40a7-815c-5b5b3b0735a6)
