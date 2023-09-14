@@ -116,6 +116,7 @@ Transfers Out of Europe formula
 ```
 
 This is the final output:
+
 ![image](https://github.com/jef-fortunahamid/ExcelFootballAnalysis/assets/125134025/bdf3613c-ea7e-4d7a-ad4b-98552f5c0bd1)
 
 ### Part 3: Analysis on European Transfers by Country
