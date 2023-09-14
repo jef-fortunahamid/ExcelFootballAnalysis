@@ -48,3 +48,35 @@ On Season column, we've got a problem, we've got 2022/2028 instead of 2022/2023.
 
 <img width="212" alt="image" src="https://github.com/jef-fortunahamid/ExcelFootballAnalysis/assets/125134025/598a6fb2-2030-4778-8b1d-b65648c97a71">
 
+We need to change the value with Find/Replace Function (press CTRL + H). On the 'Find what' space, type '2022/2028' and on 'Replace what' space, type 2022/2023, and press 'Replace All'.
+
+![image](https://github.com/jef-fortunahamid/ExcelFootballAnalysis/assets/125134025/10870d37-e295-4424-a1a9-d14875b37cae)
+
+Now it is sorted.
+
+<img width="206" alt="image" src="https://github.com/jef-fortunahamid/ExcelFootballAnalysis/assets/125134025/a13d7310-7e52-441a-8849-75db4b23a65c">
+
+Next, we need to fill out the missing values on the two columns for the named 'Continent'. We will be using INDEX/MATCH functions and the formula is:
+
+```excel
+=INDEX(Countries!$C$3:$C$140,MATCH(C4,Countries!$B$3:$B$140,0))
+```
+And this is the final output for the 'Continent' columns.
+
+![image](https://github.com/jef-fortunahamid/ExcelFootballAnalysis/assets/125134025/d9c2da3c-48fe-47ec-bdcb-4a57754c6dbb)
+
+The final column to fix is the 'Total club to club compensation'.
+
+![image](https://github.com/jef-fortunahamid/ExcelFootballAnalysis/assets/125134025/0246c956-666a-4afc-8856-28309a26e5e2)
+
+Looking at the column, the values are not properly shown. The decimal places are not consistent as well. We need to fix this with 'Format Cells' (press CTRL + 1). Select all the values on the column 'Total club to club compensation' (CTRL + SHIFT + DOWN ARROW). On 'Format Cells' choose the 'Custom' function, then type '$#,##0.00;;-'.
+- "$#,##0.00": This is for positive numbers. It rounds the number to two decimal places and adds a dollar sign.
+- The section for negative numbers is left blank since you mentioned there are no negative values.
+- "-": This is for zeros, which will be displayed as a dash.
+
+![image](https://github.com/jef-fortunahamid/ExcelFootballAnalysis/assets/125134025/a0cd0bc7-c697-40a7-815c-5b5b3b0735a6)
+
+
+
+
+
