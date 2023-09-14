@@ -16,11 +16,14 @@ Here's the Final ouput, [Football Transfer Analysis](https://docs.google.com/spr
 ### Techniques Used:
 - **Text to Columns**: Using the 'Data' tab, the country and continent information is separated using a comma as the delimiter.
 - **TRIM Function**: Used to remove the extra space before the continent names.
-- Copy-Paste Special and Add Filter: The cleaned-up data is pasted back, and filters are applied to each column.
-- Formatting and Filters: Headers are formatted, and filters are applied to each column.
-- Find/Replace: Used to correct erroneous values in the 'Season' column.
-- INDEX/MATCH Functions: Used to fill missing 'Continent' information based on the 'Countries' sheet.
-- Formatting Cells: The 'Total club to club compensation' column is formatted to display values in a uniform manner.
+- **Copy-Paste Special and Add Filter**: The cleaned-up data is pasted back, and filters are applied to each column.
+- **Formatting and Filters**: Headers are formatted, and filters are applied to each column.
+- **Find/Replace**: Used to correct erroneous values in the 'Season' column.
+- **INDEX/MATCH Functions**: Used to fill missing 'Continent' information based on the 'Countries' sheet.
+- **UNIQUE and FILTER Functions**: Used to list only European countries.
+- **UNIQUE Function**: To list unique seasons from the 'Database' sheet.
+- **SUMIFS Function**: Used to calculate 'Transfers Into Europe' and 'Transfers out of Europe' based on conditions.
+- **Formatting Cells**: The 'Total club to club compensation' column is formatted to display values in a uniform manner.
 
 ### Part 1: Data Exploration and Preparation
 This file has two working sheets named 'Database' and 'Countries'. These are the following steps done.
