@@ -159,7 +159,7 @@ Then we need to calculate for the 'Net Transfers' and 'Net Cost' columns.
 Net Transfers = 'Transfers Into Country' - 'Transfers Out of Country'
 Net Cost = 'Cost of Transfers Into Country' - 'Cost of Transfers Out of Country'
 
-For these columns,we need to change the format to properly show the values. Select all the values on each column (CTRL + SHIFT + DOWN ARROW). Press CTRL + 1, on 'Format Cells' choose the 'Custom' function, then type '#;[Red](#)' and '$#,##0.00;[Red]($#,##0.00);-', respectively. On these columns, we made the negatice values in red and in parentheses.
+For these columns,we need to change the format to properly show the values. Select all the values on each column (CTRL + SHIFT + DOWN ARROW). Press CTRL + 1, on 'Format Cells' choose the 'Custom' function, then type ```#;[Red](#)``` and ```$#,##0.00;[Red]($#,##0.00);-```, respectively. On these columns, we made the negatice values in red and in parentheses.
 
 This is the final output:
 ![image](https://github.com/jef-fortunahamid/ExcelFootballAnalysis/assets/125134025/c6f3fd4e-d2a5-4f22-ab5c-4efaa815ea2a)
